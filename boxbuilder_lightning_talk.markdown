@@ -35,8 +35,8 @@ WHAT
 WOW
 ---
 * Pie in the sky ideas:
-  * Continuous Integration can include invoke Boxbuilder to automatically build an entire test environment, and test deployment of your green tag
-  * Green tag of your entire environment
+  * Your Continuous Integration can invoke Boxbuilder to automatically build an entire test environment and test deployment.
+  * You then have a green tag of your entire environment, including any environment changes.
   * Minimize nasty surprises during deployment
   * Automatically create Amazon EC2 AMI images of your server roles, so they are instantly bootable
   * Everything is in source control, versioned, tagged, holistically consistent, completely repeatable...
