@@ -12,6 +12,7 @@ WHY
 * Your environment will rot, especially if you don't lock down versions.  Takes a lot of knowledge and *ongoing* time to *properly* provision and update boxes.
 * Heroku is great, until you want something they don't support (yet)
 * Chef from Opscode is a Ruby DSL to declaratively define the desired state of a box - using "cookbooks", "recipes", "roles", etc.
+* Two flavors of Chef - Chef Server (client-server, more complex), or Chef Solo (standalone, simpler).  Boxbuilder uses Chef Solo.
 * It is powerful and useful, but you need Ruby to run it
 * But Ruby isn't preinstalled on most barebones distros (and if it is, it isn't the version you want)
 * Boxbuilder uses RVM.  RVM is the best way to install Ruby.  It's dumb to install package manager's ruby just to run chef which then installs RVM, and then gets accidentally used or confuses people
