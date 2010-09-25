@@ -1,6 +1,9 @@
 BOXBUILDER LIGHTNING TALK
 =========================
 
+WHY
+---
+
 * code must run on boxes (computers, systems, etc.)
 * boxes must be built
 * Your environment will rot, especially if you don't lock down versions.  Takes a lot of knowledge and *ongoing* time to *properly* provision and update boxes.
@@ -10,6 +13,8 @@ BOXBUILDER LIGHTNING TALK
 * But Ruby isn't preinstalled on most barebones distros (and if it is, it isn't the version you want)
 * Boxbuilder uses RVM.  RVM is the best way to install Ruby
 
+WHAT
+----
 * Boxbuilder automatically bootstraps a barebones OS with RVM and Chef, then runs your Chef cookbooks
 * Single command line invocation
 * Opinionated yet flexible, minimal configuration required (builds an 'example' box if no custom Chef cookbook is defined)
@@ -26,6 +31,8 @@ BOXBUILDER LIGHTNING TALK
   * A remote box
   * An Amazon EC2 AMI image from your Chef cookbooks (locally or remotely as well)
 
+WOW
+---
 * Pie in the sky ideas:
   * Continuous Integration can include invoke Boxbuilder to automatically build an entire test environment, and test deployment of your green tag
   * Green tag of your entire environment
