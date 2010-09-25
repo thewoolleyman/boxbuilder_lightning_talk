@@ -23,8 +23,9 @@ WHAT
 * Why Bash?!? Zero dependencies, cross platform, runs on any workstation with a shell, shuts up language bigots
 * Lets the definitions for your systems live in source control and be completely repeatable (as long as you lock down versions of everything, packages, RVM, Chef itself)
 * Simple "autoupdate" approach, automatically pulls all latest chef repos and configs when 'boxbuilder' executable is run again.
+* Everything works on Ubuntu, mostly working for CentOS and OSX/Homebrew
 * It has tests!
-* It has Continuous Integration!
+* It has Continuous Integration! [http://ci.pivotallabs.com:3333/builds/boxbuilder](http://ci.pivotallabs.com:3333/builds/boxbuilder)
 
 * It can build:
   * A local box
